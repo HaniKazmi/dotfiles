@@ -1,4 +1,4 @@
-source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ./syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Declare the variable
 typeset -A ZSH_HIGHLIGHT_STYLES
