@@ -1,9 +1,9 @@
-source ./syntax-highlighting/zsh-syntax-highlighting.zsh
+source ${0:a:h}/syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Declare the variable
 typeset -A ZSH_HIGHLIGHT_STYLES
 
-# To have paths colored instead of underlined
+# Have paths coloured and underlined
 ZSH_HIGHLIGHT_STYLES[path]='fg=cyan,underline'
 
 # Have all commands in blue
