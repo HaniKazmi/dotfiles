@@ -4,3 +4,6 @@
 [submodule "zsh/autosuggestions"]
 	path = zsh/autosuggestions
 	url = https://github.com/tarruda/zsh-autosuggestions.git
+[submodule "system/autojump"]
+	path = system/autojump
+	url = https://github.com/wting/autojump.git
