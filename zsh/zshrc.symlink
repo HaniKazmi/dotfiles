@@ -1,0 +1,12 @@
+export ZSH=$HOME/.dotfiles
+
+# Load all zsh files
+typeset -U config_files
+config_files=($ZSH/**/*.zsh)
+
+for file in ${config_files}
+do
+  source $file
+done
+
+unset config_files
