@@ -1,0 +1,6 @@
+#!/bin/sh
+ssh() {
+    set-title $*;
+    /usr/bin/ssh -2 $*;
+    set-title $HOST;
+}

@@ -1,0 +1,4 @@
+#!/bin/sh
+set-title() {
+    echo -e "\e]0;$*\007"
+}
