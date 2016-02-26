@@ -1,10 +1,11 @@
 [user]
-  email = hanikazm@amazon.com
+  email = hanikazmi@me.com
   name = Hani Kazmi
 [color]
   ui = auto
 [core]
   pager = less -FMRiX
+  excludesfile = $ZSH/git/excludes
 [push]
   default = simple
 [alias]
