@@ -1,0 +1,8 @@
+term screen-256color
+
+# don't display copyright page
+startup_message off
+
+hardstatus alwayslastline "%{-b gk}%-w%{+b kg}%50>%n %t%{-b gk}%+w %=%C%<"
+
+altscreen on
