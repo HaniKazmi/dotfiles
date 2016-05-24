@@ -13,6 +13,12 @@ bind - split-window -v
 unbind '"'
 unbind %
 
+# Use Alt-arrow keys without prefix key to switch panes
+bind -n M-Left select-pane -L
+bind -n M-Right select-pane -R
+bind -n M-Up select-pane -U
+bind -n M-Down select-pane -D
+
 ######################
 ### DESIGN CHANGES ###
 ######################
@@ -60,8 +66,6 @@ set-option -g visual-bell off
 set-option -g visual-silence off
 set-window-option -g monitor-activity off
 set-option -g bell-action none
-
-set -g default-terminal "screen-256color"
 
 # The modes {
 setw -g clock-mode-colour colour135

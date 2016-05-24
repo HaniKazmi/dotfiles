@@ -1,0 +1,23 @@
+" Attempt to determine the type of a file based on its name and possibly its
+" contents. Use this to allow intelligent auto-indenting for each filetype,
+" and for plugins that are filetype specific.
+filetype indent plugin on
+
+syntax enable             " Enable syntax highlighting
+
+set hlsearch              " Highlight search results
+set incsearch             " Incremental search
+
+set expandtab             " Use spaces instead of tabs
+set smarttab              " Be smart when using tabs
+set autoindent            " always set autoindenting on
+
+set wildmenu              " Better command-line completion
+
+set hidden                " hide buffers instead of closing
+
+set showcmd               " Show (partial) command in status line.
+set showmatch             " Show matching brackets.
+
+set ruler                 " the ruler on the bottom is useful
+set scrolloff=1           " dont let the curser get too close to the edge
